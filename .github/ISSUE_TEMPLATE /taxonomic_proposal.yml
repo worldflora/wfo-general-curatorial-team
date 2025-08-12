@@ -1,3 +1,4 @@
+title: "[Taxonomic Proposal]: "
 name: Taxonomic proposal
 description: Propose a taxonomic change
 labels: ["taxonomic proposal"]
@@ -8,7 +9,7 @@ body:
         This form should be used for proposing a taxonomic change relative to [WFO June 2025](https://wfoplantlist.org).  
         **All proposed names must be validly published according to the [International Code of Nomenclature for Algae, Fungi, and Plants](https://www.iapt-taxon.org/nomen/main.php).**
 
-        Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Reclassificaiton of subsection Albovireya`).
+        Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Reclassification of subsection Albovireya`).
 
         For discussions about other topics, please use the [Discussion forum](https://github.com/orgs/XXX/discussions).
 
