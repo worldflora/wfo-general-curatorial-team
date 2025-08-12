@@ -1,4 +1,3 @@
-title: "[Taxonomic Proposal]: "
 name: Taxonomic proposal
 description: Propose a taxonomic change
 labels: ["taxonomic proposal"]
@@ -9,9 +8,9 @@ body:
         This form should be used for proposing a taxonomic change relative to [WFO June 2025](https://wfoplantlist.org).  
         **All proposed names must be validly published according to the [International Code of Nomenclature for Algae, Fungi, and Plants](https://www.iapt-taxon.org/nomen/main.php).**
 
-        Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Reclassification of subsection Albovireya`).
+        Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Reclassificaiton of subsection Albovireya`).
 
-        For discussions about other topics, please use the [Discussion forum](https://github.com/orgs/XXX/discussions).
+        For discussions about other topics, please use the [Discussion forum](https://github.com/orgs/RhodoResearchNetwork/discussions).
 
   - type: input
     id: author-name
@@ -87,3 +86,12 @@ body:
       label: Related issues
       description: |
         List issue numbers related to this proposal, e.g., `#1, #2`.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/RhodoResearchNetwork/RRN-Classification/blob/main/docs/Code%20of%20Conduct.md).
+      options:
+        - label: I agree to follow the R-RN Code of Conduct
+          required: true
