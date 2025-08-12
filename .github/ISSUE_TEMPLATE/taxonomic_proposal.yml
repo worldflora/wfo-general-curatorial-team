@@ -78,7 +78,7 @@ body:
   - type: textarea
     id: reference
     attributes:
-      label: Reference(s) for publication of the name
+      label: Reference(s) to support taxonomic changes.
       description: |
         Only validly published names will be included in the classification.  
         Include DOI link if available. You may upload a PDF by dragging it into the box.
