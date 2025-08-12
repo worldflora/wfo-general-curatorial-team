@@ -86,12 +86,3 @@ body:
       label: Related issues
       description: |
         List issue numbers related to this proposal, e.g., `#1, #2`.
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/RhodoResearchNetwork/RRN-Classification/blob/main/docs/Code%20of%20Conduct.md).
-      options:
-        - label: I agree to follow the R-RN Code of Conduct
-          required: true
