@@ -1,5 +1,5 @@
 name: Literature suggestion
-description: Suggest a publication relevant to Rhododendron taxonomy or phylogeny
+description: Suggest a publication relevant to taxonomy the may inform the work of the WFO General Curatorial Team
 labels: ["literature", "reference suggestion"]
 body:
   - type: markdown
@@ -50,12 +50,3 @@ body:
       label: Related taxa
       description: List any Rhododendron taxa discussed or affected by the publication.
       placeholder: e.g., Rhododendron ponticum, R. caucasicum
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/RhodoResearchNetwork/RRN-Classification/blob/main/docs/Code%20of%20Conduct.md).
-      options:
-        - label: I agree to follow the R-RN Code of Conduct
-          required: true
