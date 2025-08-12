@@ -3,3 +3,5 @@
 If you want to suggest a publication or a group that needs revision please use the issue tracker to suggest changes for the team to discuss and work on.
 
 Taxonomic changes should be based on published works. Changes will be discussed and voted on and then integrated into Rhakhis.
+
+[Suggest literature or propose a taxonomic change here.](https://github.com/worldflora/wfo-general-curatorial-team/issues/new/choose)
