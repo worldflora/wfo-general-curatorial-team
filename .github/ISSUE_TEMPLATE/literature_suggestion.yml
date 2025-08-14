@@ -47,5 +47,5 @@ body:
     id: related-taxa
     attributes:
       label: Related taxa
-      description: List any Rhododendron taxa discussed or affected by the publication.
+      description: List any taxa discussed or affected by the publication.
       placeholder: e.g., Rhododendron ponticum, R. caucasicum
