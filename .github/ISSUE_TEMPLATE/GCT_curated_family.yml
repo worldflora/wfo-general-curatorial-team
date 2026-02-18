@@ -1,0 +1,38 @@
+name: Family
+description: Use this when adding a Family that is or will be curated by the General Curatorial Team.
+labels: ["General Curatatorial Team", "curation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to record details about the family, who is doing the curation, etc. 
+
+  - type: input
+    id: family
+    attribute:
+      label: Family
+      description: Give Family as it is in WFO.
+      placeholder: Hydrolaceae
+    validations:
+      required: true
+
+  - type: input
+    id: editors
+    attributes:
+      label: Editor names.
+      description: Who is responsible for the curation.
+      placeholder: John Smith
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary of what needs done if known.
+      description: Briefly record what needs done.
+      placeholder: Full curation, nomenclaural checking.
+
+  - type: input
+    id: related-issues
+    attributes:
+      label: Related issues raised from feedback.
+      description: List any Feedback related to this curatorial effort.
+      placeholder: e.g., Rhododendron ponticum, R. caucasicum
