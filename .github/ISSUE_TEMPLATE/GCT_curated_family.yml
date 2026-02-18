@@ -1,4 +1,5 @@
 name: Family
+title: "[Family]"
 description: Use this when adding a Family that is or will be curated by the General Curatorial Team.
 labels: ["General Curatatorial Team", "curation"]
 
