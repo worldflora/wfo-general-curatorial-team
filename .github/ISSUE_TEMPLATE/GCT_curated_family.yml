@@ -20,19 +20,21 @@ body:
     id: editors
     attributes:
       label: Editor names.
-      description: Who is responsible for the curation.
-      placeholder: John Smith
+      description: List who is responsible for the curation.
+      placeholder: John Smith, Jane Smith.
+    validations:
+      required: true
 
   - type: textarea
     id: summary
     attributes:
-      label: Summary of what needs done if known.
+      label: Summary of what needs done, if known.
       description: Briefly record what needs done.
-      placeholder: Full curation, nomenclaural checking.
+      placeholder: Full curation, nomenclaural checking, curation of genus x.
 
-  - type: input
-    id: related-issues
+   - type: input
+    id: related_issues
     attributes:
-      label: Related issues raised from feedback.
-      description: List any Feedback related to this curatorial effort.
-      placeholder: e.g., Rhododendron ponticum, R. caucasicum
+      label: Related issues
+      description: |
+        List issue numbers related to this proposal, e.g., `#1, #2`.
