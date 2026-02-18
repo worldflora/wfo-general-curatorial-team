@@ -9,7 +9,7 @@ body:
 
   - type: input
     id: family
-    attribute:
+    attributes:
       label: Family
       description: Give Family as it is in WFO.
       placeholder: Hydrolaceae
