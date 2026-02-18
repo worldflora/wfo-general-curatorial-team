@@ -1,5 +1,5 @@
 name: Family
-title: "[Family]"
+title: "Family: {{ADD NAME}}"
 description: Use this when adding a Family that is or will be curated by the General Curatorial Team.
 labels: ["General Curatatorial Team", "curation"]
 
