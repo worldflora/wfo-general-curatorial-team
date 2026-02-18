@@ -1,11 +1,12 @@
 name: Family
 description: Use this when adding a Family that is or will be curated by the General Curatorial Team.
 labels: ["General Curatatorial Team", "curation"]
+
 body:
   - type: markdown
     attributes:
       value: |
-        Use this form to record details about the family, who is doing the curation, etc. 
+        Use this form to record details about the family, who is doing the curation, etc.
 
   - type: input
     id: family
@@ -19,20 +20,20 @@ body:
   - type: input
     id: editors
     attributes:
-      label: Editor names.
+      label: Editor names
       description: List who is responsible for the curation.
-      placeholder: John Smith, Jane Smith.
+      placeholder: John Smith, Jane Smith
     validations:
       required: true
 
   - type: textarea
     id: summary
     attributes:
-      label: Summary of what needs done, if known.
+      label: Summary of what needs done, if known
       description: Briefly record what needs done.
-      placeholder: Full curation, nomenclaural checking, curation of genus x.
+      placeholder: Full curation, nomenclatural checking, curation of genus x.
 
-   - type: input
+  - type: input
     id: related_issues
     attributes:
       label: Related issues
